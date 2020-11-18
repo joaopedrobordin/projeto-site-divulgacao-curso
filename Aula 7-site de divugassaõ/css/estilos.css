@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family: arial;
+    color: white;
+}
+
+body{
+    background: url(../fundo.jpg);
+    background-size: cover;
+    text-align:center;
+}
+.conteudo-principal{
+    height:100vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
+.titulo{
+    font-size:70px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.data-inicio{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.subtitulo{
+    font-weight: bold;
+}
+
+.destaque{
+    background: white;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration:none;
+    border: 1px solid black;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
